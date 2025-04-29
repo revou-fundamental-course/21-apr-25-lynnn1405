@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Konversi Kalkulator Suhu</title>
+
+    <!-- CSS Exsternal -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    
+     <!-- Header Content -->
+     <header>
+        <h1>Website Konversi Suhu - Ellyn</h1>
+     </header>
+
+
+     <!-- Main Content -->
+     <main>
+
+        <!-- Introduction -->
+        <section>
+            <p>Masukkan suhu derajat Celsius (°C) ke kotak dibawah, 
+               lalu klik tombol Konversi untuk mendapatkan hasil 
+               konversi dalam bentuk Fahrenheit (°F). Selain ada tombol konversi adapun
+               tombol lain seperti reset untuk menghapus nilai atau membersihkan kotak input suhu, dan ada tombol reverse 
+               untuk konversi sebaliknya menjadi Fahrenheit (°F) ke Celsius (°C).</p>
+        </section>
+
+        <!-- Form Konversi Suhu -->
+        <form class="section-content">
+            <div class="section-item">
+                <label for="konversi-input">Celcius (&deg;C):</label>
+            </div>
+
+            <div class="section-item">
+                <textarea id="konversi-input"></textarea>
+            </div>
+
+            <!-- Form Action -->
+            <div class="section-item">
+                <button class="bg-1">Konversi</button>
+                <button class="bg-2">Reset</button>
+                <button class="bg-3">Reverse</button>
+            </div>
+        </form>
+
+        <!-- Hasil Konversi Suhu -->
+         <section class="section-content">
+            <div class="section-item">
+                <label for="result-input">fahrenheit (&deg;F):</label>
+            </div>
+
+            <div class="section-item">
+                <textarea id="result-input" readonly></textarea>
+            </div>
+         </section>
+        
+         <!-- Penjelasan  -->
+         <section class="section-content">
+            <div class="section-item">
+                <label for="calculate-detail">Cara Kalkulasi:</label>
+            </div>
+
+            <div class="section-item">
+                <textarea id="calculate-detail" readonly></textarea>
+            </div>
+         </section>
+
+         <!-- Informasi Tambahan -->
+         <section>
+            <header>
+                <h1>Cara Konversi Dari Celcius (&deg;C) Ke Fahrenheit (&deg;F)</h1>
+            </header>
+
+            <hr />
+
+
+            <!-- Content Informasi -->
+            <article>
+                <p>Suhu<span class="formula"> S </span> dalam derajat Fahrenheit (&deg;F)</p>
+
+                <!-- formula -->
+                <div class="formula">
+                    S<sub>(&deg;F)</sub> = (S<sub>(&deg;C)</sub> x 9/5) + 32</div>
+                </div>
+
+                <div>
+                    atau
+                </div>
+
+                <!-- Fahrenheit To Celcius -->
+                <div class="formula">
+                    S<sub>(&deg;F)</sub> = (S<sub>(&deg;C)</sub> x  1,8 ) + 32</div>
+                </div>
+            </article>
+         </section>
+        
+     </main>
+
+<hr/>
+
+     <!-- Footer Content -->
+      <footer>
+        <p> &copy; 2025 Ellyn Sibarani, All rights reserved. </p> 
+      </footer>
+
+
+     
