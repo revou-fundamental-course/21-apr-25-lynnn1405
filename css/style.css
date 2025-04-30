@@ -9,6 +9,16 @@ div {
     text-align: justify;
 }
 
+h1 {
+    color: fuchsia;
+}
+
+h2 {
+    text-align: left;
+    color: fuchsia;
+}
+
+
 button {
     border: none;
     padding: 8px;
@@ -48,6 +58,15 @@ textarea {
     background-color: #f8f8f8;
     font-size: 16px;
     resize: none;
+}
+
+.a {
+    text-align: left;
+    width: 100%;
+    display: inline-block;
+    margin-top: 10px;
+    color: blue;
+    cursor: pointer;
 }
 
 .formula {
